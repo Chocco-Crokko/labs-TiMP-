@@ -1,0 +1,32 @@
+\begin{theindex}
+
+  \item {/home/choccocro/\+Desktop/labs-\/\+Ti\+M\+P-\//lab3/\+Queue/\+Queue.\+h}, 
+		\hyperpage{9}
+
+  \indexspace
+
+  \item {empty}
+    \subitem {Queue}, \hyperpage{6}
+
+  \indexspace
+
+  \item {front}
+    \subitem {Queue}, \hyperpage{6}
+
+  \indexspace
+
+  \item {pop}
+    \subitem {Queue}, \hyperpage{6}
+  \item {push}
+    \subitem {Queue}, \hyperpage{6}
+
+  \indexspace
+
+  \item {Queue}
+    \subitem {empty}, \hyperpage{6}
+    \subitem {front}, \hyperpage{6}
+    \subitem {pop}, \hyperpage{6}
+    \subitem {push}, \hyperpage{6}
+  \item {Queue$<$ T $>$}, \hyperpage{5}
+
+\end{theindex}

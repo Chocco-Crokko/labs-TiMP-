@@ -1,0 +1,99 @@
+\hypertarget{classQueue}{}\section{Шаблон класса Queue$<$ T $>$}
+\label{classQueue}\index{Queue$<$ T $>$@{Queue$<$ T $>$}}
+
+
+Cтруктура данных очередь  
+
+
+
+
+{\ttfamily \#include $<$Queue.\+h$>$}
+
+\subsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classQueue_ab25281eb5ba9f6e512e96201598f46b2}\label{classQueue_ab25281eb5ba9f6e512e96201598f46b2}} 
+\hyperlink{classQueue_ab25281eb5ba9f6e512e96201598f46b2}{Queue} (size\+\_\+t n=100)
+\begin{DoxyCompactList}\small\item\em Стандартный конструктор \end{DoxyCompactList}\item 
+bool \hyperlink{classQueue_a84af2287bc5dad708508b588dc73457d}{empty} () const
+\begin{DoxyCompactList}\small\item\em Проверка очереди на пустоту \end{DoxyCompactList}\item 
+void \hyperlink{classQueue_a296728a60552a6676313379be7e0bc8a}{push} (T val)
+\begin{DoxyCompactList}\small\item\em Добавление значения в конец очереди \end{DoxyCompactList}\item 
+void \hyperlink{classQueue_a02ea784625fe33b5793d00c3b02b4878}{pop} ()
+\begin{DoxyCompactList}\small\item\em Удаление значения из начала очереди \end{DoxyCompactList}\item 
+T \hyperlink{classQueue_a8554e7c5797d5a73fc2c4854a2d57b99}{front} () const
+\begin{DoxyCompactList}\small\item\em Возвращение элемента в начале очереди \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Подробное описание}
+\subsubsection*{template$<$class T$>$\newline
+class Queue$<$ T $>$}
+
+Cтруктура данных очередь 
+
+\begin{DoxyWarning}{Предупреждения}
+Данная структура реализована исключительно в учебных целях
+\end{DoxyWarning}
+Очередь, основанная на закольцованном массиве 
+
+\subsection{Методы}
+\mbox{\Hypertarget{classQueue_a84af2287bc5dad708508b588dc73457d}\label{classQueue_a84af2287bc5dad708508b588dc73457d}} 
+\index{Queue@{Queue}!empty@{empty}}
+\index{empty@{empty}!Queue@{Queue}}
+\subsubsection{\texorpdfstring{empty()}{empty()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+bool \hyperlink{classQueue}{Queue}$<$ T $>$\+::empty (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Проверка очереди на пустоту 
+
+\begin{DoxyReturn}{Возвращает}
+bool-\/значение, показывающее, пустая ли очередь 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classQueue_a8554e7c5797d5a73fc2c4854a2d57b99}\label{classQueue_a8554e7c5797d5a73fc2c4854a2d57b99}} 
+\index{Queue@{Queue}!front@{front}}
+\index{front@{front}!Queue@{Queue}}
+\subsubsection{\texorpdfstring{front()}{front()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+T \hyperlink{classQueue}{Queue}$<$ T $>$\+::front (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Возвращение элемента в начале очереди 
+
+\begin{DoxyReturn}{Возвращает}
+Значение, находящееся в начале очереди
+\end{DoxyReturn}
+Функция выполняется только если очередь не пустая. \mbox{\Hypertarget{classQueue_a02ea784625fe33b5793d00c3b02b4878}\label{classQueue_a02ea784625fe33b5793d00c3b02b4878}} 
+\index{Queue@{Queue}!pop@{pop}}
+\index{pop@{pop}!Queue@{Queue}}
+\subsubsection{\texorpdfstring{pop()}{pop()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+void \hyperlink{classQueue}{Queue}$<$ T $>$\+::pop (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Удаление значения из начала очереди 
+
+Функция выполняется только если очередь не пустая. Сбрасывает флаг того, что очередь полная \mbox{\Hypertarget{classQueue_a296728a60552a6676313379be7e0bc8a}\label{classQueue_a296728a60552a6676313379be7e0bc8a}} 
+\index{Queue@{Queue}!push@{push}}
+\index{push@{push}!Queue@{Queue}}
+\subsubsection{\texorpdfstring{push()}{push()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+void \hyperlink{classQueue}{Queue}$<$ T $>$\+::push (\begin{DoxyParamCaption}\item[{T}]{val }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Добавление значения в конец очереди 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em val} & значение, которое нужно добавить\\
+\hline
+\end{DoxyParams}
+Функция выполняется только если очередь не полная 
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+/home/choccocro/\+Desktop/labs-\/\+Ti\+M\+P-\//lab3/\+Queue/\hyperlink{Queue_8h}{Queue.\+h}\end{DoxyCompactItemize}
